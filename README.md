@@ -1,17 +1,27 @@
-# macro_tracker
+# MacroPollo — iOS App
 
-A new Flutter project.
+iOS financial terminal that stress-tests portfolio positions against macro shocks using a local LLM — zero data leakage by design.
 
-## Getting Started
+## Stack
+- **Flutter** — Cross-platform iOS app
+- **ChromaDB + RAG** — Retrieval-augmented analysis
+- **Qwen 3.5** — Local LLM (zero data leakage)
 
-This project is a starting point for a Flutter application.
+## Features
+- Live macro news feed with one-tap analysis
+- Institutional Memory archive with semantic search
+- Devil's Advocate & Ripple Effect analysis tabs
+- Portfolio Vulnerability Scanner
+- 6-month asset Impact Chart
+- Investment Committee Memo export
+- OCR camera for physical document ingestion
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
+```bash
+flutter pub get
+flutter run
+```
+Requires backend running at `http://192.168.x.x:8081`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+<!-- Add screenshots here -->
