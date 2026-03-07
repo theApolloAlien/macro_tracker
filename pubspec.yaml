@@ -1,0 +1,27 @@
+name: macro_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_markdown: ^0.7.1
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.0
+  fl_chart: ^0.68.0
+  share_plus: ^10.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
