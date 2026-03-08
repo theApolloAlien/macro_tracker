@@ -3,7 +3,7 @@
 iOS financial terminal that stress-tests portfolio positions against macro shocks using a local LLM — zero data leakage by design.
 
 ## Stack
-- **Flutter** — Cross-platform iOS app
+- **Flutter** — Cross-platform iOS/ Android app
 - **ChromaDB + RAG** — Retrieval-augmented analysis
 - **Qwen 3.5** — Local LLM (zero data leakage)
 
