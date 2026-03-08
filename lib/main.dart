@@ -11,7 +11,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const _serverIp = '192.168.1.17';
+const _serverIp = '192.168.xx.xx';
 const _baseUrl  = 'http://$_serverIp:8081';
 
 // ─── Palette ──────────────────────────────────────────────────────────────────
