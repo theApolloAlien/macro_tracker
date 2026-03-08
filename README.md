@@ -1,4 +1,4 @@
-# MacroPollo — iOS App
+# MacroPollo — Deployable on both iOS & Android
 
 iOS financial terminal that stress-tests portfolio positions against macro shocks using a local LLM — zero data leakage by design.
 
